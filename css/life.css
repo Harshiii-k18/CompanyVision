@@ -1,0 +1,266 @@
+.{
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', Audiowide;
+}
+body{
+    overflow-x: hidden;
+}
+  .header .content-box{
+  background: url(C:/Users/Harshita/Desktop/HTMLCss/img/Eyes.jpg);
+      background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+ 
+.header .menu{
+    display: inline-flex;
+    height: 35px;
+    font-size: 30px;
+    margin: 20px 0 0 110px;
+    cursor: pointer;
+    font-family: Audiowide;
+    color: gainsboro;
+}
+.headings{
+    display: flex;
+    flex-direction: column;
+    background: #262626;
+    min-height: 100vh;
+    
+}
+ 
+nav{
+    position:absolute;
+    right: 10%;
+    
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul li{
+    display: inline-flex;
+}
+nav ul li a{
+    position: relative;
+    padding: 16px 0 5px;
+    margin: 0 25px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Audiowide;
+    font-size: 14px;
+    
+}
+nav ul li a:hover{
+    color: darkseagreen;
+    transition: .9s;
+}
+nav ul li a:after{
+    content: '';
+    position: absolute;
+    left:50%;
+    bottom: 0;
+    transform: translate(-50%) scaleX(0);
+    -webkit-transform:translate(-50%) scaleX(0);
+    -webkit-transform-origin:50% 50%;
+    transform-origin: 50% 50%;
+    width:100%;
+    height: 2px;
+    background-color: rgba(255,255,255,0.9);
+    -webkit-transition: transform 250ms;
+    transition: transform 250ms;
+}
+nav ul li a:hover:after{
+    -webkit-transform:translateX(-50%) scaleX(1);
+    transform:translateX(-50%) scaleX(1);
+    
+}
+
+.welcome{
+    color: darkseagreen;
+    position: absolute;
+    font-family: audiowide;
+    font-size: 16px;
+    left: 8%;
+    top: 25%;
+    
+}
+.bold{
+    color: gainsboro;
+    position: absolute;
+    font-family:inherit;
+    font-size: 45px;
+    left: 8%;
+    top: 28%;
+    
+}
+.element{
+    color:#fff;
+    position: absolute;
+    font-family:sans-serif;
+    font-size: 55px;
+    left: 8%;
+    top: 51%;
+    
+}
+.social{
+    font-size: 20px;
+    
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 5px;
+  width: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+    
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  
+  color: darkseagreen;
+}
+.fa-instagram{
+  
+  color: darkseagreen;
+}
+.fa-linkedin{
+  
+  color: darkseagreen;
+}
+.fa-android{
+  
+  color: darkseagreen;
+
+}
+.fa-wordpress{
+  
+  color: darkseagreen;
+}
+.fa-opencart{
+  
+  color: darkseagreen;
+}
+.fa-envira{
+  
+  color: darkseagreen;
+}
+.content1{
+    background: #f4f3ff;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    text-align: center;
+    padding-top: 100px;
+    
+}
+
+h1::after{
+    content: '';
+    background: darkseagreen;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 50px;
+    
+}
+.services .icon{
+    font-size: 30px;
+    margin: 20px auto;
+    padding:18px;
+    height: 70px;
+    width: 70px;
+    
+   
+    
+}
+.services .col-md-3:hover{
+    background:  darkseagreen;
+    cursor: pointer;
+    color: #fff;
+    box-shadow: -5px 5px 10px 0 rgba(0,0,0,0.4);
+    transition: .5s;
+    
+}
+.services .col-md-3:hover .icon{
+    
+    color: #fff;
+    
+
+}
+.services .col-md-3:hover p{
+   
+    color: #fff;
+    
+}
+.services .col-md-3:hover span{
+    
+    color: #fff;
+    
+}
+.footer h1{
+    padding-top: 50px;
+}
+
+.contact-form{
+    padding: 15px;
+}
+.form-control{
+    border-radius: 0 ! important;
+    border: none !important;
+    box-shadow: none !important;
+}
+::placeholder{
+    font-size: 12px;
+    
+}
+.contact-form button{
+    border: none !important;
+    background:darkseagreen ;
+    box-shadow: none ! important;
+    border-radius: 0;
+}
+.contact-info .follow{
+    background-color: #fff;
+    padding: 3px;
+    margin: 15px;
+    
+}
+.contact-info .fa{
+    margin: 10px;
+    font-size: 20px;
+    color: darkseagreen;
+    font-weight: bold;
+    padding-right: 20px;
+}
+.contact-info span{
+    font-size: 14px;
+}
+.copyright{
+    text-align: center;
+font-size: 14px;
+}
+.fa-heart-o{
+    color: red;
+    font-size: 14px;
+}
+.footer hr{
+    margin-top:50px;
+    background: darkseagreen;
+}
+.next1,.footer{
+    margin-top: 8%;
+}
